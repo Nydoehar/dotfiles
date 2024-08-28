@@ -1,0 +1,3 @@
+#!/bin/bash
+  
+bash /mnt/HDD/MY_STUFF/TECH/Configs/Scripts/play.sh $1 $2

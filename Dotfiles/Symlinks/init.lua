@@ -1,3 +1,5 @@
+-- Put in on > ~/.config/nvim/init.lua
+
 -- Settings
 local opt = vim.opt
 local o = vim.o

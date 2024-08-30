@@ -1,3 +1,0 @@
-#!/bin/bash
-
-bash /mnt/HDD/MY_STUFF/TECH/Configs/Scripts/del.sh $1

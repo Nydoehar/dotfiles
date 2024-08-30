@@ -1,6 +1,0 @@
-
-UUID=2B2F6B4529BC9532 /mnt/HDD ntfs uid=1000,gid=1000,rw,user,auto,exec 0 0
-UUID=6B4FA4C31DAB7943 /mnt/NVME ntfs uid=1000,gid=1000,rw,user,auto,exec 0 0
-
-//192.168.3.155/Public_Files /mnt/SMB_SHARES/Public cifs _netdev,nofail,uid=1000,gid=1000,iocharset=utf8 0 0
-//192.168.3.155/Private_Files /mnt/SMB_SHARES/Private cifs credentials=/home/yann/.smbcredentials,_netdev,nofail,uid=1000,gid=1000,iocharset=utf8 0 0

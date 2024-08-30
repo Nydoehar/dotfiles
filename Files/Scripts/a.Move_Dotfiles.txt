@@ -1,0 +1,25 @@
+# BRAVE
+mv ~/.config/BraveSoftware/Brave-Browser/Default /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/Brave-Browser
+ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/Brave-Browser/Default ~/.config/BraveSoftware/Brave-Browser/
+ 
+# SYNCTHING
+mv ~/.local/state/syncthing/config.xml /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Syncthing/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Syncthing/config.xml ~/.local/state/syncthing/
+
+# BASHRC
+mv ~/.bashrc /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/.bashrc ~/
+
+# ALIASES
+mv ~/.bash_aliases /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/.bash_aliases ~/
+
+# NEOVIM
+mv ~/.config/nvim/init.lua /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/NeoVim/
+ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/NeoVim/init.lua ~/.config/nvim/
+
+
+#cp -r /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/Brave-Browser/Default ~/.config/BraveSoftware/Brave-Browser/
+
+#cp /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Syncthing/config.xml ~/.local/state/syncthing/
+ 

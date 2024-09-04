@@ -1,4 +1,4 @@
 Brave-Browser/
 Syncthing/
 *.stfolder*
-.smbcredentials
+*smbcredentials*

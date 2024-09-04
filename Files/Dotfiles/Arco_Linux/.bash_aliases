@@ -51,7 +51,7 @@ alias games='cd /mnt/NVME/Games/ && c'
 alias misc='cd /mnt/HDD/MY_STUFF/MISC/ && c'
 alias notes='cd /mnt/HDD/MY_STUFF/MISC/Notes && c'
 
-alias pc='cd /mnt/HDD/MY_STUFF/TECH/ && c'
+alias tech='cd /mnt/HDD/MY_STUFF/TECH/ && c'
 alias apps='cd /mnt/HDD/MY_STUFF/TECH/Apps/ && c'
 alias conf='cd /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/ && c'
 alias scri='cd /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Scripts && c'
@@ -63,6 +63,7 @@ alias mullvad='(cd /mnt/HDD/MY_STUFF/TECH/Apps/mullvad-browser/ && ./start-mullv
 alias webdev='cd /mnt/HDD/MY_STUFF/TECH/WebDev && c'
 alias awebdev='(xargs brave < /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Scripts/a.webdev.txt && c)'
 alias abrave='(xargs brave < /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Scripts/a.URLs.txt &>/dev/null && c)'
+alias nsfw='(nv /mnt/HDD/MY_STUFF/MISC/Notes/NSFW.txt)'
 
 ######                 ######
 ######   RARELY USED   ######

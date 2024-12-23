@@ -19,7 +19,8 @@ cp ~/dotfiles/Files/Scripts/Wrappers/* ~/.local/bin/
 (cd ~/.local/bin/ && chmod +x *)
 rm -rf ~/dotfiles/
 
-yes | paru -S brave-bin vlc neovim syncthing veracrypt
+yes | paru -S brave-bin vlc neovim syncthing veracrypt xsel
+#xsel is for neovim to be able to copy to clipboard
 
 cat /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/1-General/bashrc_extras | sudo tee -a ~/.bashrc
 cat /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/1-General/fstab_mounts | sudo tee -a /etc/fstab

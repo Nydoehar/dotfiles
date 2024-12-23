@@ -41,5 +41,6 @@ ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/NeoVim/init.lua ~/.confi
 #cp -r /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Brave-Browser ~/.config/BraveSoftware/
 #cp -r /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/transmission ~/.config/
 
-exec bash
+# TO DO: Put synchthing to start on boot on qTile.
 
+exec bash

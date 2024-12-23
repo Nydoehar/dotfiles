@@ -13,29 +13,29 @@ sudo mount -t cifs //192.168.3.155/Private_Files /mnt/SMB_SHARES/Private/ -o cre
 
 cp ~/dotfiles/Dotfiles/Arco_Linux/.bash_aliases ~/
 mkdir -p ~/.config/nvim/
-cp ~/dotfiles/Dotfiles/Symlinks/init.lua ~/.config/nvim/
+cp ~/dotfiles/Files/Dotfiles/NeoVim/init.lua ~/.config/nvim/
 mkdir -p ~/.local/bin
-cp ~/dotfiles/Dotfiles/Scripts/Wrappers/* ~/.local/bin/
+cp ~/dotfiles/Files/Scripts/Wrappers/* ~/.local/bin/
 (cd ~/.local/bin/ && chmod +x *)
 rm -rf ~/dotfiles/
 
-cat /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/bashrc_extras | sudo tee -a ~/.bashrc
-cat /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/fstab_mounts | sudo tee -a /etc/fstab
-cat /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/root_aliases | sudo tee -a /root/.bashrc
+yes | paru -S brave-bin vlc neovim syncthing veracrypt
 
-mv ~/.local/state/syncthing/config.xml /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/Syncthing/
-ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/Syncthing/config.xml ~/.local/state/syncthing/
+cat /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/1-General/bashrc_extras | sudo tee -a ~/.bashrc
+cat /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/1-General/fstab_mounts | sudo tee -a /etc/fstab
+cat /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/1-General/root_aliases | sudo tee -a /root/.bashrc
 
-mv ~/.bashrc /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Arco_Linux/
-ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Arco_Linux/.bashrc ~/
+mv ~/.local/state/syncthing/config.xml /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Syncthing/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Syncthing/config.xml ~/.local/state/syncthing/
 
-mv ~/.bash_aliases /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Arco_Linux/
-ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Arco_Linux/.bash_aliases ~/
+mv ~/.bashrc /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/.bashrc ~/
 
-mv ~/.config/nvim/init.lua /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/
-ln -s /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Symlinks/init.lua ~/.config/nvim/
+mv ~/.bash_aliases /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/Arco_Linux/.bash_aliases ~/
 
-yes | paru -S brave-bin vlc neovim timeshift xfce4-appfinder syncthing veracrypt
+mv ~/.config/nvim/init.lua /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/NeoVim/
+ln -s /mnt/HDD/MY_STUFF/TECH/ConfigFiles/Files/Dotfiles/NeoVim/init.lua ~/.config/nvim/
 
 #cp -r /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/Brave-Browser ~/.config/BraveSoftware/
 #cp -r /mnt/HDD/MY_STUFF/TECH/Configs/Dotfiles/transmission ~/.config/
